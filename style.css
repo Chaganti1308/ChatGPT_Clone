@@ -1,0 +1,148 @@
+*{
+	font-family: "Noto Sans", sans-serif;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	min-width: 100vw;
+	min-height: 100vh;
+	background-color: #212121;
+	display: flex;
+	flex-direction: row;
+}
+
+.left-panel{
+	background-color: #171717;
+	width: 15vw;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.left-panel-top-icons-section{
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-panel-center-list-tems{
+	padding: 20px 0px;
+}
+
+.left-panel-center-list-tems > div {
+	display: flex;
+	align-items:center;
+	gap: 10px;
+	margin-top: 20px;
+
+}
+
+.left-panel-center-list-tems > div >  svg {
+	height: 24px;
+	width: 24px;
+}
+
+
+.left-panel-center-list-tems > div {
+	padding-bottom:10px;
+}
+
+
+.left-panel-bottom-section{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.left-panel-bottom-section > div > p > small{
+	color: #9B9B9B;
+	font-size: 10px;
+	margin: 0px;
+}
+
+.right-panel{
+	flex: 1;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-between;	
+}
+
+.right-panel-header{
+	padding: 15px;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	background-color: #282828;
+	
+}
+
+.right-panel-header-title {
+	display: flex;
+	flex-direction: row;
+}
+
+.right-panel-header-user-icon{
+	padding: 10px;
+	font-weight: 700;
+	background-color: rgb(78, 78, 78);
+	border-radius: 50%;
+	
+}
+
+.right-panel-main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.right-panel-center-section-text-input{
+	margin-top: 15px;
+	background-color: #cfcfcf39;
+	width: 60%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 12px;
+	border-radius: 50px;
+}
+
+.right-panel-center-section-text-input > input {
+	width: 90%;
+	outline: none;
+	background-color: transparent;
+	border: none;
+	color: aliceblue;
+}
+
+.right-panel-main-input-suggestions{
+	padding: 10px;
+	margin-top: 10px;
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	> div {
+	background-color: transparent;
+	border: 1px solid rgb(100, 100, 100);
+	border-radius: 50px;
+	font-size: 14px;
+	padding: 10px;
+	gap: 5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	}
+}
+
+.right-panel-footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.right-panel-footer > div > small {
+	color: #9B9B9B;
+	font-size: 10px;
+	margin: 0px;
+}
